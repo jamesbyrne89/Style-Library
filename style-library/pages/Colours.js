@@ -33,7 +33,11 @@ const colourVals = {
         }
     ],
     primary: [
-        
+        {
+            name: "Coral",
+            hex: "#FC6962",
+            rgb: "rgb(252,105,98)"
+        }
     ]
 }
 
