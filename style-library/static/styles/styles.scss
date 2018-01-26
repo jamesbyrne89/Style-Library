@@ -45,13 +45,13 @@ body {
     .content-container {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-auto-rows: 200px;
+        grid-auto-rows: auto;
     }
 }
 
 article {
     border-bottom: solid 1px #ddd;
-    padding: 1.5rem;
+    padding: 2rem;
     line-height: 1.375;
 }
 
@@ -62,12 +62,14 @@ article:first-child {
 article:nth-child(2n) {
     font-weight: 700;
     text-transform: uppercase;
+    padding: 2rem 0;
 }
 
 .page-title {
     font-weight: 900;
     font-size: 5rem;
     grid-column: span 2;
+    margin-bottom: 5rem;
 }
 
 article {

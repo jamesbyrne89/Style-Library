@@ -25,6 +25,11 @@ const colourVals = {
             name: 'Cream',
             hex: '#f8ede0',
             rgb: 'rgb(96,84,113)'
+        },
+        {
+            name: "Grey",
+            hex: "#e0e0e0",
+            rgb: "rgb(224,224,224)"
         }
     ],
     primary: [
@@ -58,6 +63,9 @@ const Colours = () => {
                 <article>Primary colours</article>
                 <article>
                     <ul className="colour-palette">
+                    {colourVals.primary.map((col) => {
+                            return <li><Colour col={col} /></li>
+                        })}
                         <li>
                             <div className="colour__sample"></div>
                             <span className="colour__hex">#edf207</span>
