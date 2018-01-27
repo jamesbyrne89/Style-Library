@@ -54,12 +54,12 @@ const Colours = () => {
                 <section className="content-container">
                 <h1 className="page-title">Colours</h1>
                 <article>Purpose</article>
-                <article>Spicy jalapeno bacon ipsum dolor amet pork loin hamburger ham porchetta prosciutto kevin turkey buffalo beef ribs leberkas fatback chuck. Filet mignon andouille shank tri-tip pig bresaola, meatloaf jowl beef brisket. Bacon boudin tail, pancetta capicola ground round ham andouille ball tip. Chuck picanha bresaola kielbasa beef ribs, boudin venison ribeye. Salami t-bone beef biltong, andouille hamburger fatback corned beef. Hamburger leberkas sirloin andouille corned beef.</article>
+                <article>Focus alpha lean startup hypotheses bootstrapping. Product management vesting period seed money entrepreneur leverage learning curve graphical user interface technology network effects low hanging fruit niche market disruptive. First mover advantage supply chain agile development interaction design crowdfunding A/B testing. Gamification market ownership business model canvas.</article>
                 <article>Neutrals</article>
                 <article>
                 <ul className="colour-palette">
-                        {colourVals.neutral.map((col) => {
-                            return <li><Colour col={col} /></li>
+                        {colourVals.neutral.map((col, i) => {
+                            return <li key={i}><Colour key={i} col={col} /></li>
                         })}
                     </ul>
 
@@ -67,8 +67,8 @@ const Colours = () => {
                 <article>Primary colours</article>
                 <article>
                     <ul className="colour-palette">
-                    {colourVals.primary.map((col) => {
-                            return <li><Colour col={col} /></li>
+                    {colourVals.primary.map((col, i) => {
+                            return <li key={i}><Colour key={i} col={col} /></li>
                         })}
                         <li>
                             <div className="colour__sample"></div>

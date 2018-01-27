@@ -19,26 +19,25 @@ var Colour = function Colour(props) {
         name = _props$col.name,
         rgb = _props$col.rgb;
 
-    console.log(hex);
     return _react2.default.createElement("div", {
         __source: {
             fileName: _jsxFileName,
-            lineNumber: 8
+            lineNumber: 7
         }
     }, _react2.default.createElement("div", { className: "colour__sample", style: { backgroundColor: hex }, __source: {
             fileName: _jsxFileName,
-            lineNumber: 9
+            lineNumber: 8
         }
     }), _react2.default.createElement("span", { className: "colour__hex", __source: {
             fileName: _jsxFileName,
-            lineNumber: 10
+            lineNumber: 9
         }
     }, hex), _react2.default.createElement("span", { className: "colour__rgb", __source: {
             fileName: _jsxFileName,
-            lineNumber: 11
+            lineNumber: 10
         }
     }, rgb));
 };
 
 exports.default = Colour;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXENvbG91ci5qcyJdLCJuYW1lcyI6WyJDb2xvdXIiLCJwcm9wcyIsImNvbCIsImhleCIsIm5hbWUiLCJyZ2IiLCJjb25zb2xlIiwibG9nIiwiYmFja2dyb3VuZENvbG9yIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFHQSxJQUFNLFNBQVMsU0FBVCxBQUFTLE9BQUEsQUFBQyxPQUFVO3FCQUNLLE1BREwsQUFDVztRQURYLEFBQ2QsaUJBRGMsQUFDZDtRQURjLEFBQ1Qsa0JBRFMsQUFDVDtRQURTLEFBQ0gsaUJBREcsQUFDSCxBQUNuQjs7WUFBQSxBQUFRLElBQVIsQUFBWSxBQUNaOzJCQUNRLGNBQUE7O3NCQUFBO3dCQUFBLEFBQ0k7QUFESjtBQUFBLEtBQUEseUNBQ1MsV0FBTCxBQUFlLGtCQUFpQixPQUFPLEVBQUMsaUJBQXhDLEFBQXVDLEFBQWtCO3NCQUF6RDt3QkFESixBQUNJLEFBQ0E7QUFEQTt3QkFDQSxjQUFBLFVBQU0sV0FBTixBQUFnQjtzQkFBaEI7d0JBQUEsQUFBK0I7QUFBL0I7T0FGSixBQUVJLEFBQ0Esc0JBQUEsY0FBQSxVQUFNLFdBQU4sQUFBZ0I7c0JBQWhCO3dCQUFBLEFBQStCO0FBQS9CO09BSlosQUFDUSxBQUdJLEFBSWY7QUFYRCxBQWFBOztrQkFBQSxBQUFlIiwiZmlsZSI6IkNvbG91ci5qcyIsInNvdXJjZVJvb3QiOiJFOi9Vc2Vycy9KYW1lcy9XZWIgRGV2L1Byb2plY3RzL2h0ZG9jcy9TdHlsZSBMaWJyYXJ5L3N0eWxlLWxpYnJhcnkifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHNcXENvbG91ci5qcyJdLCJuYW1lcyI6WyJDb2xvdXIiLCJwcm9wcyIsImNvbCIsImhleCIsIm5hbWUiLCJyZ2IiLCJiYWNrZ3JvdW5kQ29sb3IiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7OztBQUdBLElBQU0sU0FBUyxTQUFULEFBQVMsT0FBQSxBQUFDLE9BQVU7cUJBQ0ssTUFETCxBQUNXO1FBRFgsQUFDZCxpQkFEYyxBQUNkO1FBRGMsQUFDVCxrQkFEUyxBQUNUO1FBRFMsQUFDSCxpQkFERyxBQUNILEFBQ25COzsyQkFDUSxjQUFBOztzQkFBQTt3QkFBQSxBQUNJO0FBREo7QUFBQSxLQUFBLHlDQUNTLFdBQUwsQUFBZSxrQkFBaUIsT0FBTyxFQUFDLGlCQUF4QyxBQUF1QyxBQUFrQjtzQkFBekQ7d0JBREosQUFDSSxBQUNBO0FBREE7d0JBQ0EsY0FBQSxVQUFNLFdBQU4sQUFBZ0I7c0JBQWhCO3dCQUFBLEFBQStCO0FBQS9CO09BRkosQUFFSSxBQUNBLHNCQUFBLGNBQUEsVUFBTSxXQUFOLEFBQWdCO3NCQUFoQjt3QkFBQSxBQUErQjtBQUEvQjtPQUpaLEFBQ1EsQUFHSSxBQUlmO0FBVkQsQUFZQTs7a0JBQUEsQUFBZSIsImZpbGUiOiJDb2xvdXIuanMiLCJzb3VyY2VSb290IjoiRTovVXNlcnMvSmFtZXMvV2ViIERldi9Qcm9qZWN0cy9odGRvY3MvU3R5bGUgTGlicmFyeS9zdHlsZS1saWJyYXJ5In0=

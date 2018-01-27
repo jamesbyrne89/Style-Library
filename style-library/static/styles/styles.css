@@ -16,6 +16,11 @@ body {
   color: #1a1a1a;
 }
 
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
 .primary-nav {
   display: flex;
   align-items: flex-end;
@@ -23,6 +28,7 @@ body {
   height: 100px;
   background: #fff;
   border-bottom: solid 1px grey;
+  font-weight: 900;
 }
 
 .primary-nav__container ul {
@@ -35,7 +41,19 @@ body {
 }
 
 .primary-nav__container ul li {
+  margin-bottom: 3px;
+  transition: all 0.15s;
+  font-weight: 900;
+}
+
+.primary-nav__container ul li a {
   padding: 1rem;
+  display: block;
+}
+
+.primary-nav__container ul li:hover {
+  border-bottom: solid 3px dodgerblue;
+  margin-bottom: 0;
 }
 
 .app-content {
@@ -50,16 +68,23 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: auto;
+  grid-row-gap: 2em;
 }
 
 article {
-  border-bottom: solid 1px #ddd;
+  border-top: solid 1px #ddd;
   padding: 2rem;
   line-height: 1.375;
 }
 
 article:first-child {
   margin-top: 5rem;
+  border: 0;
+}
+
+article:nth-child(2),
+article:nth-child(3) {
+  border: 0;
 }
 
 article:nth-child(2n) {
