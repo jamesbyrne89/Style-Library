@@ -52,7 +52,7 @@ a {
 }
 
 .primary-nav__container ul li:hover {
-  border-bottom: solid 3px dodgerblue;
+  border-bottom: solid 3px #1a1a1a;
   margin-bottom: 0;
 }
 
