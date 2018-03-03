@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from '../components/NavBar';
-import Colour from '../components/Colour';
+import NavBar from './components/NavBar';
+import Colour from './components/Colour';
 
 
 const colourVals = {
@@ -43,11 +43,6 @@ const colourVals = {
 const Colours = () => {
     return (
         <div>
-            <Head>
-                <title>Style Library: Colours</title>
-                <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"></link>
-                <link href="/static/styles/styles.css" rel="stylesheet"></link>
-            </Head>
             <NavBar />
             <main className="app-content">
                 <section className="content-container">
