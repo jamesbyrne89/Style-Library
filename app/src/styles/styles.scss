@@ -25,6 +25,10 @@ body {
     color: #1a1a1a;
 }
 
+#root {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: #1a1a1a;
@@ -42,7 +46,8 @@ a {
     justify-content: center;
     height: 100px;
     background: #fff;
-    border-bottom: solid 1px grey;
+    -webkit-box-shadow: 0px 0px 1px grey;
+    box-shadow: 0px 0px 1px grey;
     font-weight: 900;
     &__container ul {
         display: -webkit-box;
