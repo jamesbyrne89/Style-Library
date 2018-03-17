@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
-import Colour from './components/Colour';
+import NavBar from '../components/NavBar';
+import Colour from '../components/Colour';
 
 
 const colourVals = {
@@ -43,7 +43,6 @@ const colourVals = {
 const Colours = () => {
     return (
         <div>
-            <NavBar />
             <main className="app-content">
                 <section className="content-container">
                 <h1 className="page-title">Colours</h1>

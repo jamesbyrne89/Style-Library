@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+import React from 'react';
+import NavBar from '../components/NavBar';
 
 
 const Animation = () => {
@@ -17,7 +17,7 @@ const Animation = () => {
                     </ul>
 
                 </article>
-                <article>Primary Animation</article>
+                <article>Loading Animation</article>
                 <article>
                     <ul className="colour-palette">
                         <li>

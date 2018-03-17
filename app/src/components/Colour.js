@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Colour = (props) => {
     const { hex, name, rgb } = props.col
     return (
