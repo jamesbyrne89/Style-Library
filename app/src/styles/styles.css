@@ -1,19 +1,6 @@
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  padding: 0;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
+/*******************
+# Custom Video Player
+*******************/
 .wh-player {
   max-width: 750px;
   position: relative;
@@ -212,6 +199,13 @@ video::-webkit-media-controls {
 .restart {
   font-size: 1.25em;
   vertical-align: middle;
+}
+
+@font-face {
+  font-family: 'helveticaneueregular';
+  src: url("../fonts/helveticaneue-webfont.woff2") format("woff2"), url("../fonts/helveticaneue-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
