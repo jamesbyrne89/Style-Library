@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <header className="primary-nav">
             <nav className="primary-nav__container">
                 <ul>
-                    {/* <li><Link href="/Colours"><a>Colours</a></Link></li>
-                    <li><Link href="/Typography"><a>Typography</a></Link></li>
-                    <li><Link href="/Components"><a>Components</a></Link></li>
-                    <li><Link href="/Buttons"><a>Buttons</a></Link></li> */}
+                    <li><Link to="/colours"><a>Colours</a></Link></li>
+                    <li><Link to="/typography"><a>Typography</a></Link></li>
+                    <li><Link to="/components"><a>Components</a></Link></li>
                 </ul>
             </nav>
         </header>

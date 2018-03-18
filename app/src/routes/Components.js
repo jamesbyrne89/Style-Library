@@ -40,8 +40,12 @@ class Components extends Component {
                                         </div>
                                     </div>
                                 </article>
-                                <article>Primary colours</article>
+                                <article>Buttons</article>
                                 <article>
+                                    <div class="snippet">
+                                        <button class="btn btn-primary">Checkout</button>
+                                        <button class="btn btn-secondary"></button>
+                                    </div>
                                 </article>
                                 <article></article>
                                 <article></article>
